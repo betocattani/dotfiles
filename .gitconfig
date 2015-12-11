@@ -1,0 +1,57 @@
+[color]
+  branch = auto
+  interactive = auto
+  grep = always
+  diff = auto
+  status = auto
+  ui = true
+
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+  whitespace = red reverse
+  plain = black
+
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
+  whitespace = trailing-space,space-before-tab
+  autocrlf = input
+
+[apply]
+  whitespace = fix
+
+[push]
+  default = simple
+
+[alias]
+  glog = "log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cpink(%cr)%Creset' --abbrev-commit --date=relative"
+  lol = log --graph --decorate --pretty=oneline --abbrev-commit
+  lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
+  ld = log --oneline --decorate
+  lg = log -p
+  ls = ls-files
+  br = branch
+  pl = pull
+  st = status
+  df = diff
+  dfs = diff --staged
+  dw = diff --word-diff
+  ci = commit
+  ca = commit --amend
+  ps = push
+  co = checkout
+  sh = stash
+  re = rebase
+  hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+  type = cat-file -t
+  dump = cat-file -p
+  who = shortlog -s --
+
+[fetch]
+ prune = true
+
+[init]
+	templatedir = /Users/luizcattani/.git-templates
