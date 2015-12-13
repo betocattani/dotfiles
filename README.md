@@ -1,1 +1,2 @@
-dotfiles my friend! 
+Dotfiles my friend!
+===================
