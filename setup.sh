@@ -17,7 +17,6 @@ if [ "$OS" == "Darwin" ]; then
   
   pushd ~/.dotfiles
   brew tap Homebrew/bundle
-  brew install caskroom/cask/brew-cask
   brew bundle
   popd
 elif [ "$OS" == "Linux" ]; then

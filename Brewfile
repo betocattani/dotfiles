@@ -1,7 +1,3 @@
-tap 'caskroom/cask'
-tap 'caskroom/fonts'
-tap 'caskroom/versions'
-
 # essential
 brew 'ag'
 brew 'git'
