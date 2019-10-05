@@ -1,0 +1,8 @@
+.installed
+vim/bundle/
+vim/backups/
+
+/log/*
+!/.log/.keep
+/tmp
+.ruby-gemset
